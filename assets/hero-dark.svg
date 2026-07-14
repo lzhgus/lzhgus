@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">lzhgus — signals to systems</title>
+  <desc id="desc">A dark editorial profile banner with a camera viewfinder and abstract embedding points converging into a system.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#121C2B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="46%" r="42%">
+      <stop offset="0" stop-color="#6AA6BC" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#0B1220" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#F4F1EA" stroke-opacity=".045"/>
+    </pattern>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .drift-a { animation: drift-a 7s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+      .drift-b { animation: drift-b 9s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+      .pulse { animation: pulse 3.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .trace { stroke-dasharray: 7 11; animation: trace 10s linear infinite; }
+      @keyframes drift-a { to { transform: translate(9px, -7px); } }
+      @keyframes drift-b { to { transform: translate(-8px, 9px); } }
+      @keyframes pulse { 50% { transform: scale(1.22); opacity: .62; } }
+      @keyframes trace { to { stroke-dashoffset: -180; } }
+      @media (prefers-reduced-motion: reduce) {
+        .drift-a, .drift-b, .pulse, .trace { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="27" fill="none" stroke="#F4F1EA" stroke-opacity=".14"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+
+  <g fill="#F4F1EA">
+    <text x="58" y="66" font-size="15" letter-spacing="3" fill-opacity=".58">IDENTITY / LZHGUS</text>
+    <text x="58" y="174" font-size="96" font-weight="750" letter-spacing="5">LZHGUS</text>
+    <text x="60" y="246" font-size="40" font-weight="700" letter-spacing="2">SIGNALS</text>
+    <text x="268" y="246" font-size="40" fill="#E4655D">→</text>
+    <text x="320" y="246" font-size="40" font-weight="700" letter-spacing="2">SYSTEMS</text>
+    <text x="60" y="304" font-size="25" fill-opacity=".76">Software engineer · AI builder · product maker</text>
+    <line x1="60" y1="349" x2="650" y2="349" stroke="#F4F1EA" stroke-opacity=".16"/>
+    <circle cx="60" cy="382" r="5" fill="#E4655D"/>
+    <text x="80" y="390" font-size="17" letter-spacing="2" fill-opacity=".68">BUILDING THE USEFUL PART</text>
+  </g>
+
+  <g aria-hidden="true" transform="translate(0 -64)">
+    <path d="M760 133h52M760 133v52M1138 133h-52M1138 133v52M760 414h52M760 414v-52M1138 414h-52M1138 414v-52" fill="none" stroke="#F4F1EA" stroke-opacity=".38" stroke-width="2"/>
+    <circle cx="949" cy="274" r="118" fill="#0B1220" fill-opacity=".34" stroke="#F4F1EA" stroke-opacity=".13"/>
+    <circle cx="949" cy="274" r="82" fill="none" stroke="#6AA6BC" stroke-opacity=".35" stroke-dasharray="4 10"/>
+    <path class="trace" d="M798 322C846 187 903 352 949 248s104 65 153-42" fill="none" stroke="#6AA6BC" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M820 204L884 246 918 184 964 272 1037 219 1086 320" fill="none" stroke="#8FA287" stroke-opacity=".48"/>
+    <path d="M808 354L875 302 920 337 966 272 1038 330 1101 262" fill="none" stroke="#E4655D" stroke-opacity=".43"/>
+
+    <g class="drift-a" fill="#6AA6BC">
+      <circle cx="820" cy="204" r="7"/><circle cx="884" cy="246" r="5"/><circle cx="1037" cy="219" r="8"/><circle cx="1101" cy="262" r="5"/>
+    </g>
+    <g class="drift-b" fill="#8FA287">
+      <circle cx="808" cy="354" r="6"/><circle cx="875" cy="302" r="8"/><circle cx="918" cy="184" r="5"/><circle cx="1086" cy="320" r="7"/>
+    </g>
+    <g fill="#E4655D">
+      <circle class="pulse" cx="949" cy="274" r="11"/>
+      <circle cx="920" cy="337" r="5"/><circle cx="1038" cy="330" r="6"/>
+    </g>
+    <circle cx="949" cy="274" r="28" fill="none" stroke="#E4655D" stroke-opacity=".42"/>
+    <text x="914" y="280" font-family="ui-monospace, monospace" font-size="12" fill="#F4F1EA" fill-opacity=".72">MEANING</text>
+  </g>
+
+</svg>
