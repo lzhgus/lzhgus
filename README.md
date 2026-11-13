@@ -38,6 +38,14 @@ A fast, native command palette for the real menu commands, scripts, and workflow
 
 A native macOS calculator that makes expressions, units, currencies, dates, and conversions feel simple.
 
+### `EXTEND / 05` · [Menubloom](https://github.com/lzhgus/menubloom)
+
+The right-click menu Finder is missing: New File, Copy Path, Cut & Paste, Open in Terminal, and more.
+
+### `ORCHESTRATE / 06` · [Agent Kanban](https://github.com/lzhgus/agent-kanban)
+
+One desktop board for the coding agents you already use, with each task on its own git branch.
+
 ## `// HOW_I_BUILD`
 
 **Systems first.** I like clear boundaries, dependable infrastructure, and software that stays understandable as it grows.
